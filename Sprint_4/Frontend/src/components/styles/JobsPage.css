@@ -1,0 +1,82 @@
+/* JobsPage.css */
+
+.jobs-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-image: url("../../images/jobPageBackground.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.jobs-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.refresh-button {
+  padding: 10px 15px;
+  background-color: #5682d2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.refresh-button:hover {
+  background-color: #4565a0;
+}
+
+.jobs-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the job cards */
+}
+
+.job-card {
+  width: 700px; /* Set a fixed width for all job cards */
+  height: 170px; /* Set a fixed height for all job cards */
+  margin: 10px;
+  padding: 20px;
+  background: rgba(93, 169, 233, 0.9); /* Background color with opacity */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  display: flex;
+  flex-direction: column; /* Adjust the flex direction to column */
+  align-items: center; /* Vertically align content in the middle */
+  justify-content: center; /* Horizontally align content in the middle */
+  align-self: center;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.company-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.job-details {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+}
+
+.job-card-container {
+  display: flex;
+  flex-direction: row;
+}

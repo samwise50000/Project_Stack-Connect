@@ -1,0 +1,81 @@
+/* Register.css file */
+.register-page {
+  padding: 20px;
+  background-image: url("../../images/heroPhoto.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* Ensure the background covers the entire viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register-title {
+  font-size: 20px;
+  margin-bottom: 0px;
+  text-align: center;
+  margin-top: 3px;
+}
+
+.register-form {
+  width: 300px;
+  padding: 10px;
+  background-color: rgba(93, 169, 233, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  margin-top: 25px;
+  margin-bottom: -5px;
+}
+.first-register-label {
+  display: block;
+  margin-bottom: -30px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.register-label {
+  display: block;
+  margin-bottom: -25px;
+  margin-top: 2px;
+  font-size: 14px;
+}
+
+.register-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.register-button {
+  background-color: #5682d2;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.register-button:hover {
+  background-color: #4565a0;
+}
+
+.already-user-text {
+  color: #ffffff;
+  display: inline-block;
+  border: none;
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+
+.sign-in-link-button {
+  color: #072b6e;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.sign-in-link-button:hover {
+  color: #3967bc;
+}

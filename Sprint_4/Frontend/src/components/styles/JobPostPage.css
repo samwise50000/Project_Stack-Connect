@@ -1,0 +1,188 @@
+.job-post-page {
+  padding: 20px;
+  background-image: url("../../images/heroPhoto.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.job-post-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.job-post-form {
+  width: 800px;
+  padding: 20px;
+  background-color: rgba(93, 169, 233, 0.95);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  margin: auto;
+  margin-top: 50px;
+  color: #fff;
+}
+
+.job-title-label,
+.workplace-label,
+.job-location-label,
+.job-type-label {
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: inline-block; /* Display labels inline */
+}
+.code-languages-label {
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: inline-block; /* Display labels inline */
+  margin-left: 430px;
+  margin-top: -100px;
+}
+
+.tools-label {
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: inline-block; /* Display labels inline */
+  margin-left: 415px;
+  margin-top: -100px;
+}
+.developer-exp-amount-label {
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: inline-block; /* Display labels inline */
+  margin-left: 405px;
+  margin-top: -100px;
+}
+
+.job-description-label {
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: inline-block; /* Display labels inline */
+  margin-left: 425px;
+  margin-top: -100px;
+}
+
+/* Style for text inputs */
+.job-description-input {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 14px;
+  margin-top: -120px;
+  margin-left: 495px;
+}
+input[type="text"],
+textarea {
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Style for multi-select dropdowns */
+.code-languages-input {
+  display: block;
+  margin-bottom: 20px;
+  margin-top: -50px;
+  font-size: 14px;
+  margin-left: 500px;
+}
+.tools-input {
+  display: block;
+  margin-bottom: 20px;
+  margin-top: -100px;
+  font-size: 14px;
+  margin-left: 500px;
+}
+.developer-exp-amount-input {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 14px;
+  margin-top: -50px;
+  margin-left: 500px;
+}
+
+.workplace-input,
+.job-type-input {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Style for the selected options list */
+ul {
+  list-style: none;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* Style for the "Add Job" button */
+.add-job-button {
+  background-color: #5682d2;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.add-job-button:hover {
+  background-color: #4565a0;
+}
+
+/* Style for selected options in the list */
+.selected-code-languages {
+  margin-top: -8px;
+  margin-bottom: 16px;
+  margin-left: 500.438px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  color: #000;
+}
+.selected-workplace {
+  margin-top: -8px;
+  margin-bottom: 16px;
+  margin-right: 350px;
+  padding: 16px;
+  background-color: #f2f2f2;
+  color: #000;
+}
+.selected-tools {
+  margin-top: -48px;
+  margin-bottom: 16px;
+  margin-left: 500.438px;
+  padding: 16px;
+  background-color: #f2f2f2;
+  color: #000;
+}
+
+.selected-developer-exp-amount {
+  margin-top: -8px;
+  margin-bottom: 16px;
+  margin-left: 500.438px;
+  padding: 16px;
+  background-color: #f2f2f2;
+  color: #000;
+}
+.selected-job-type {
+  margin-top: -8px;
+  margin-bottom: 16px;
+  margin-right: 590px;
+  padding: 8px;
+  background-color: #f2f2f2;
+  color: #000;
+}
+
+/* Style for list items in the selected options list */
+.selected-code-languages li,
+.selected-workplace li,
+.selected-tools li,
+.selected-developer-exp-amount li,
+.selected-job-type li {
+  margin-bottom: 0px;
+}
