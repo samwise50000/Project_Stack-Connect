@@ -22,10 +22,10 @@ In order to run this project, you need to have the following programs installed:
 ### How to run
 
 Here is the complete guide how to setup and run the project (On Windows10 / 11):
-  1.) Download the project as a ZIP
-  2.) Extract the project in to a directory
-  3.) Navigate to the directory that you extracted the project
-  4.) Right click the directory, and select "Open with Code"
-  5.) Open a terminal
-  6.) Navigate in to the Backend folder
+  1. Download the project as a ZIP
+  2. Extract the project in to a directory
+  3. Navigate to the directory that you extracted the project
+  4. Right click the directory, and select "Open with Code"
+  5. Open a terminal
+  6. Navigate in to the Backend folder
   
