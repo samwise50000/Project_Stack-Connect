@@ -6,10 +6,11 @@ Utilizing the MERN stack ideology, the application integrates MongoDB, Express.j
 ### Main features are: 
   - Creation of a job
   - Search functionality of a specific job
-  - Apply functionality for a job (Still under work)
+  - Apply functionality for a job
   - Creation of a user with credentials
   - Log in functionality
   - Correct JWT handling
+  - Swagger for API Endpoints (How to at the end of this README.md file)
 
 ### Required Prerequisites
 
@@ -68,4 +69,15 @@ To create a production build, use npm run build.
 webpack compiled successfully
 ```
 14. Enjoy!
+
+### Explore API with Swagger Documentation
+
+**About Swagger:**
+
+Swagger is an open-source framework that simplifies the process of designing, documenting, and consuming RESTful APIs. It provides a standardized way to describe API endpoints, request/response formats, and authentication mechanisms. With Swagger, developers can easily understand, test, and interact with APIs, fostering efficient collaboration and integration within projects.
+
+# How to
+
+1. After both Backend and Frontend are running, navigate to the following URL: [Swagger](http://localhost:5000/api-docs/)
+2. Here, you can test different functionalities to understand how API calls work in this project.
   
