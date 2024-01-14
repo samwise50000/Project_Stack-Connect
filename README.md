@@ -54,7 +54,7 @@ For clearance, here is an example MONGO_URI line since the format needs to be co
 Server started on port 5000
 Connected to database
 ```
-  15. Open up a second terminal, navigate to the Frontend directory and type: "npm start". You should get a message in the console:
+  15. Open up a second terminal, navigate to the Frontend directory and run command: `npm start`. You should get a message in the console:
 ```
 Compiled successfully!
 You can now view stack-connect in the browser.
