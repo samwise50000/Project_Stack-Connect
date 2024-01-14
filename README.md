@@ -1,3 +1,5 @@
+### Total Setup Time: 5-10 minutes
+
 # Stack-Connect
 
 Stack-Connect is a dynamic job-seeking platform designed to streamline the employment process.
@@ -68,7 +70,9 @@ To create a production build, use npm run build.
 
 webpack compiled successfully
 ```
-13. Enjoy!
+13. Now the project is up and running. Here you can register, create a user, and upon logging in you will have availability to post a job and find available jobs in the Jobs section.
+
+14. Enjoy!
 
 ### Explore API with Swagger Documentation
 
