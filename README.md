@@ -47,6 +47,8 @@ MONGO_URI=mongodb+srv://[USERNAME HERE]:[PASSWORD HERE][CONNECTION STRING HERE, 
 PORT=5000
 JWT_SECRET=secret
 ```
+For clearance, here is an example MONGO_URI line since the format needs to be correct: `MONGO_URI=mongodb+srv://testuser:Test123!?@cluster0.4464b5v.mongodb.net/?retryWrites=true&w=majority`
+
   13. After all of the steps has been done, navigate to the Backend directory in terminal and run command: `npm start`. You should get a message in the console:
 ```
 Server started on port 5000
