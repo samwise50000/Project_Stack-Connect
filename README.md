@@ -38,8 +38,8 @@ Here is the complete guide how to setup and run the project (On Windows10 / 11):
   4. Right click the directory, and select "Open with Code"
   5. Open a terminal
   6. Navigate in to the Backend directory
-  7. Once in Backend directory, type in terminal: "npm install"
-  8. After complete, navigate to Frontend directory and type in to the terminal: "npm install"
+  7. Once in Backend directory, type in terminal: `npm install`
+  8. After complete, navigate to Frontend directory and type in to the terminal: `npm install`
   9. After all of the required depencies are installed, create a .env file into the Backend directory
   11. In the .env file, put the following information:
 ```
@@ -47,7 +47,7 @@ MONGO_URI=mongodb+srv://[USERNAME HERE]:[PASSWORD HERE][CONNECTION STRING HERE, 
 PORT=5000
 JWT_SECRET=secret
 ```
-  13. After all of the steps has been done, navigate to the Backend directory in terminal and run command: "npm start". You should get a message in the console:
+  13. After all of the steps has been done, navigate to the Backend directory in terminal and run command: `npm start`. You should get a message in the console:
 ```
 Server started on port 5000
 Connected to database
